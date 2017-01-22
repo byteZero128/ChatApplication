@@ -1,3 +1,3 @@
 # ChatApplication
-protoype Node js express web application still in progress, uploading prototype files at the moment, UI and design of this application uses the bootrap navbar and menu features, go to https://v4-alpha.getbootstrap.com/ and insert the bootstrap folder into the node modules. Next step is to integrate the Jade template engine with the structure of the project.
+protoype Node js express web application still in progress, uploading prototype files at the moment, UI and design of this application uses the bootrap navbar and menu features, go to https://v4-alpha.getbootstrap.com/ and insert the bootstrap folder into the node modules. I recently converted my html files to the jade template engine, for more functionability/organization and real time development purposes. This means the html files are unnecessary at this point in development.
 
