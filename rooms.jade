@@ -1,0 +1,15 @@
+extends layout
+block content
+    title Admin room
+    h1 Chat Rooms from jade:
+    table.table.table-striped
+        tbody
+            each room in rooms
+                tr
+                    td= room.name
+                    td= room.id
+
+
+
+
+
