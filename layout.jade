@@ -1,15 +1,27 @@
 //Try to reuse layout of each room, reuse common functionality
 
+
+
 doctype html
+
 html(lang='en')
     head
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js')
+
+
         meta(charset='UTF-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         meta(name='viewport', content='width=device-width, initial-scale=1')
 
         link(rel='stylesheet', href='/css/bootstrap.min.css')
         link(rel='stylesheet', href='/style.css')
+#gradient
+    script(src='gradient.js')
+
+
     body
+
+
         nav.navbar.navbar-inverse.navbar-fixed-top
             .container
                 #navbar.collapse.navbar-collapse
@@ -22,4 +34,5 @@ html(lang='en')
                             a(href='/admin/users') Users
         .container
             .main-content
+
                 block content
